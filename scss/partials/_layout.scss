@@ -1,0 +1,106 @@
+
+// gallery made into a grid
+.gallery {
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows: repeat(4, 300px);
+    grid-gap: 10px;
+}
+
+.gallery-container {
+    padding: 20px;
+}
+
+// classes of images in the gallery
+.campie {
+grid-column: span 2
+}
+
+.canoe {
+    grid-column: span 2
+}
+
+.fishie {
+    grid-column: span 2
+    
+}
+
+// gallery images properties
+
+.gallery img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    box-shadow: 10px 10px 20px black,
+                -10px -3px 20px black;
+    opacity: 0.8;
+    transition: box-shadow 0.5s ease-out;
+}
+
+.gallery img:hover {
+    color: white;
+    box-shadow: 20px 20px 40px black,
+               -20px -5px 40px black;
+    opacity: 1;
+    transition: box-shadow 0.5s ease-out;
+    
+}
+
+// Activities
+
+.main-1 {
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'Dosis', sans-serif;
+    color: rgb(22, 22, 22);
+    font-size: 1.2rem;
+    grid-template-areas: 
+                           'title title'
+                    "hiking1 hiking2"
+
+}
+
+.title {
+    grid-area: title;
+    text-align: center;
+}
+
+.hiking1 {
+    grid-area: hiking1;
+    padding: 15px;
+}
+
+.hiking2 {
+    grid-area: hiking2;
+    padding: 15px;
+}
+
+.image1 {
+    height: 20rem;
+    width: 100%;
+    background: url(../images/devils-peak.jpg);
+    background-size: 100% 100%;
+    
+}
+
+.image2 {
+    height: 20rem;
+    width: 100%;
+    background: url(../images/Lions-head.jpg);
+    background-size: 100% 100%;
+    
+}
+
+.hiking1:hover .image1 {
+    box-shadow: 0px 5px 20px rgba(10, 6, 6, 0.431),
+                -5px -10px 20px rgba(10, 6, 6, 0.431);
+}
+.hiking2:hover .image2 {
+    box-shadow: 0px 5px 20px rgba(10, 6, 6, 0.431),
+                -5px -10px 20px rgba(10, 6, 6, 0.431);
+}
+
+
+
+

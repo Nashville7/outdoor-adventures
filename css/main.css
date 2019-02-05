@@ -1,0 +1,307 @@
+/* Base Styles -------------------- */
+html {
+  scroll-behavior: smooth;
+  transition: 0.20s;
+  margin-top: 0;
+  padding-top: 0; }
+
+body {
+  margin: 0;
+  padding: 0;
+  cursor: pointer; }
+
+header {
+  background-image: url(../images/beach-bench-boardwalk-462024.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh; }
+
+.heading {
+  color: #1b1616;
+  text-align: center;
+  padding-top: 190px;
+  font-size: 68px;
+  text-shadow: 5px 5px 10px #ee5959;
+  font-family: 'EB Garamond', serif;
+  height: 40vh; }
+
+h1.heading {
+  margin-top: 0; }
+
+nav {
+  width: 100%; }
+
+nav ul {
+  list-style-type: none;
+  background-color: rgba(0, 0, 0, 0.575);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 0; }
+
+nav li {
+  display: inline;
+  float: left; }
+
+nav a {
+  text-decoration: none;
+  font-size: 22px;
+  text-align: center;
+  display: block;
+  padding: 11px 6px;
+  padding-right: 45px;
+  color: white;
+  font-family: 'Jacques Francois', serif; }
+
+nav a:hover {
+  color: #f0c330;
+  transition: 0.5s; }
+
+.hiking {
+  background-color: rgba(223, 217, 217, 0.74);
+  height: 100vh;
+  font-family: 'Jacques Francois', serif;
+  font-size: 20px;
+  padding-top: 1px; }
+
+.title {
+  font-family: 'Merienda', cursive;
+  font-size: 35px; }
+
+.p-title {
+  color: black;
+  font-family: 'Poiret One', cursive;
+  font-size: 30px;
+  text-align: center; }
+
+.read-more {
+  font-size: 15px;
+  color: rgba(192, 67, 67, 0.801); }
+
+.camping {
+  background-color: rgba(223, 217, 217, 0.74);
+  height: 100vh;
+  text-align: center;
+  font-family: 'Jacques Francois', serif;
+  font-size: 20px;
+  padding-top: 1px; }
+
+.hunting {
+  background-color: rgba(223, 217, 217, 0.74);
+  height: 100vh;
+  text-align: center;
+  font-family: 'Jacques Francois', serif;
+  font-size: 20px;
+  padding-top: 1px; }
+
+.canoeing {
+  background-color: rgba(223, 217, 217, 0.74);
+  height: 100vh;
+  text-align: center;
+  font-family: 'Jacques Francois', serif;
+  font-size: 20px;
+  padding-top: 1px; }
+
+.climbing {
+  background-color: rgba(223, 217, 217, 0.74);
+  height: 100vh;
+  text-align: center;
+  font-family: 'Jacques Francois', serif;
+  font-size: 20px;
+  padding-top: 1px; }
+
+.fishing {
+  background-color: rgba(223, 217, 217, 0.74);
+  height: 100vh;
+  text-align: center;
+  font-family: 'Jacques Francois', serif;
+  font-size: 20px;
+  padding-top: 1px; }
+
+.wrapper-1 {
+  text-align: center; }
+
+.contact-body {
+  background-image: url(../images/photo-1508796079212-a4b83cbf734d.jpeg);
+  background-size: cover;
+  font-family: sans-serif;
+  font-size: 18px;
+  height: 750px;
+  margin: 0;
+  padding: 0; }
+
+.name {
+  margin-top: 4rem;
+  color: #106fcb;
+  font-weight: bolder;
+  text-shadow: rgba(19, 19, 19, 0.5) 2px 2px;
+  font-size: 49px;
+  font-family: 'Arapey', serif; }
+
+.container1 p {
+  margin: 9px;
+  color: teal;
+  font-size: 18px; }
+
+button:hover {
+  background-color: rgba(128, 128, 128, 0.883); }
+
+.icon {
+  width: 100px;
+  height: 80px; }
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(139, 164, 218, 0.897);
+  text-align: center; }
+
+a {
+  text-decoration: none;
+  font-size: 34px;
+  color: rgba(192, 67, 67, 0.801);
+  font-family: 'Lobster', cursive; }
+
+a:hover {
+  color: #c04343; }
+
+.container1 {
+  margin: 0 29rem;
+  padding: 1rem;
+  background-color: rgba(150, 150, 168, 0.678);
+  border-radius: 25px;
+  box-shadow: 0px 5px 20px rgba(10, 6, 6, 0.431), -5px -5px 20px rgba(10, 6, 6, 0.431); }
+
+.submit-button {
+  border-radius: 5px;
+  padding: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px; }
+
+.submit-button:hover {
+  background-color: rgba(128, 128, 128, 0.24); }
+
+.arrow {
+  width: 100px;
+  height: 100px;
+  padding-left: 619px; }
+
+.up-arrow {
+  width: 100px;
+  height: 100px;
+  padding-left: 619px; }
+
+.devilp {
+  float: inline start; }
+
+.gallery-body {
+  background-color: #e4cbac; }
+
+.heading-1 {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 30px;
+  text-shadow: 5px 5px 10px red;
+  font-weight: bold; }
+
+.dropdown {
+  display: inline-block;
+  top: 0; }
+
+.dropdown-content {
+  display: none;
+  box-shadow: 2px 2px 5px black;
+  min-width: 118px;
+  z-index: 1;
+  margin-top: 0;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.575); }
+
+.dropdown-content a {
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  display: block; }
+
+.dropdown-content a:hover {
+  background-color: white;
+  color: black; }
+
+.dropdown:hover .dropdown-content {
+  display: block; }
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 300px);
+  grid-gap: 10px; }
+
+.gallery-container {
+  padding: 20px; }
+
+.campie {
+  grid-column: span 2; }
+
+.canoe {
+  grid-column: span 2; }
+
+.fishie {
+  grid-column: span 2; }
+
+.gallery img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  box-shadow: 10px 10px 20px black, -10px -3px 20px black;
+  opacity: 0.8;
+  transition: box-shadow 0.5s ease-out; }
+
+.gallery img:hover {
+  color: white;
+  box-shadow: 20px 20px 40px black, -20px -5px 40px black;
+  opacity: 1;
+  transition: box-shadow 0.5s ease-out; }
+
+.main-1 {
+  display: grid;
+  grid-gap: 32px;
+  grid-template-columns: repeat(2, 1fr);
+  font-family: 'Dosis', sans-serif;
+  color: #161616;
+  font-size: 1.2rem;
+  grid-template-areas: "title title" "hiking1 hiking2"; }
+
+.title {
+  grid-area: title;
+  text-align: center; }
+
+.hiking1 {
+  grid-area: hiking1;
+  padding: 15px; }
+
+.hiking2 {
+  grid-area: hiking2;
+  padding: 15px; }
+
+.image1 {
+  height: 20rem;
+  width: 100%;
+  background: url(../images/devils-peak.jpg);
+  background-size: 100% 100%; }
+
+.image2 {
+  height: 20rem;
+  width: 100%;
+  background: url(../images/Lions-head.jpg);
+  background-size: 100% 100%; }
+
+.hiking1:hover .image1 {
+  box-shadow: 0px 5px 20px rgba(10, 6, 6, 0.431), -5px -10px 20px rgba(10, 6, 6, 0.431); }
+
+.hiking2:hover .image2 {
+  box-shadow: 0px 5px 20px rgba(10, 6, 6, 0.431), -5px -10px 20px rgba(10, 6, 6, 0.431); }
+
+/*# sourceMappingURL=main.css.map */

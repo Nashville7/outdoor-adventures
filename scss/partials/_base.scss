@@ -1,0 +1,277 @@
+/* Base Styles -------------------- */
+
+html {
+    scroll-behavior: smooth;
+    transition: 0.20s;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    
+}
+
+header {
+    background-image: url(../images/beach-bench-boardwalk-462024.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    
+}
+
+.heading {
+    color: rgb(27, 22, 22);
+    text-align: center;
+    padding-top: 190px;
+    font-size: 68px;
+    text-shadow: 5px 5px 10px rgb(238, 89, 89);
+    font-family: 'EB Garamond', serif;
+    height: 40vh;
+}
+
+h1.heading {
+    margin-top: 0;
+}
+
+// Navbar
+
+nav {
+    width: 100%;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: rgba(0, 0, 0, 0.575);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    // position: fixed;
+    margin-top: 0;
+    
+}
+
+nav li {
+    display: inline;
+    float: left;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 22px;
+    text-align: center;
+    display: block;
+    padding: 11px 6px;
+    padding-right: 45px;
+    color: white;
+    font-family: 'Jacques Francois', serif;  
+}
+
+// navbar hover effect
+nav a:hover {
+    color: #f0c330;
+    transition: 0.5s;
+}
+
+// end of navbar
+
+.hiking {
+    background-color: rgba(223, 217, 217, 0.74);
+    height: 100vh;
+    font-family: 'Jacques Francois', serif;
+    font-size: 20px;
+    padding-top: 1px;
+}
+
+// title of the heading hiking
+
+.title {
+    font-family: 'Merienda', cursive;
+    font-size: 35px;
+    
+}
+
+.p-title {
+    color: black;
+    font-family: 'Poiret One', cursive;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+// link to website in activities
+.read-more {
+    font-size: 15px;
+    color: rgba(192, 67, 67, 0.801);
+}
+
+.camping {
+    background-color: rgba(223, 217, 217, 0.74);
+    height: 100vh;
+    text-align: center;
+    font-family: 'Jacques Francois', serif;
+    font-size: 20px;
+    padding-top: 1px;
+}
+
+.hunting {
+    background-color: rgba(223, 217, 217, 0.74);
+    height: 100vh;
+    text-align: center;
+    font-family: 'Jacques Francois', serif;
+    font-size: 20px;
+    padding-top: 1px;
+}
+
+.canoeing {
+    background-color: rgba(223, 217, 217, 0.74);
+    height: 100vh;
+    text-align: center;
+    font-family: 'Jacques Francois', serif;
+    font-size: 20px;
+    padding-top: 1px;
+}
+
+.climbing {
+    background-color: rgba(223, 217, 217, 0.74);
+    height: 100vh;
+    text-align: center;
+    font-family: 'Jacques Francois', serif;
+    font-size: 20px;
+    padding-top: 1px;
+}
+
+.fishing {
+    background-color: rgba(223, 217, 217, 0.74);
+    height: 100vh;
+    text-align: center;
+    font-family: 'Jacques Francois', serif;
+    font-size: 20px;
+    padding-top: 1px;
+}
+
+// form
+
+.wrapper-1 {
+    text-align: center;  
+}
+
+.contact-body {
+    background-image: url(../images/photo-1508796079212-a4b83cbf734d.jpeg);
+    background-size: cover;
+    font-family: sans-serif;
+    font-size: 18px;
+    height: 750px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.name {
+    margin-top: 4rem;
+    color: rgb(16, 111, 203);
+    font-weight: bolder;
+    text-shadow: rgba(19, 19, 19, 0.5) 2px 2px;
+    font-size: 49px;
+    font-family: 'Arapey', serif;
+}
+
+.container1 p {
+    margin: 9px;
+    color: teal;
+    font-size: 18px;
+}
+
+
+button:hover {
+    background-color: rgba(128, 128, 128, 0.883);
+    
+}
+
+.icon {
+    width: 100px;
+    height: 80px;
+}
+
+.footer {
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    background-color: rgba(139, 164, 218, 0.897);
+    text-align: center;  
+}
+
+a {
+    text-decoration: none;
+    font-size: 34px;
+    color: rgba(192, 67, 67, 0.801);
+    font-family: 'Lobster', cursive;
+}
+
+a:hover {
+    color: rgb(192, 67, 67);
+    
+}
+
+.container1 {
+    margin: 0 29rem;
+    padding: 1rem;
+    background-color: rgba(150, 150, 168, 0.678);
+    border-radius: 25px;
+    box-shadow: 0px 5px 20px rgba(10, 6, 6, 0.431),
+                -5px -5px 20px rgba(10, 6, 6, 0.431);
+}
+
+.submit-button {
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background-color: rgba(128, 128, 128, 0.24);
+        
+}
+
+// end of form
+
+.arrow {
+    width: 100px;
+    height: 100px;
+    padding-left: 619px;
+    
+}
+
+.up-arrow {
+    width: 100px;
+    height: 100px;
+    padding-left: 619px;
+}
+
+.devilp {
+    float: inline start;
+}
+
+// html gallery styling properties
+
+.gallery-body {
+    background-color: rgb(228, 203, 172);
+}
+
+.heading-1 {
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+    text-shadow: 5px 5px 10px red;
+    font-weight: bold;
+}
+
+
+
+
