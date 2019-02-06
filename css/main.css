@@ -91,7 +91,8 @@ nav a:hover {
 
 .read-more {
   font-size: 15px;
-  color: rgba(192, 67, 67, 0.801); }
+  color: rgba(192, 67, 67, 0.801);
+  font-weight: bold; }
 
 .camping {
   background-color: rgba(223, 217, 217, 0.74);
