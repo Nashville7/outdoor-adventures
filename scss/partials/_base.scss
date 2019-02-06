@@ -20,7 +20,7 @@ body {
     margin: 0;
     padding: 0;
     cursor: pointer;
-    background-color: rgba(128, 128, 128, 0.445);
+    background-color: $bgcolor;
 }
 
 // styling of the header
@@ -37,7 +37,7 @@ header {
     color: $primary-color;
     text-align: center;
     font-size: 68px;
-    text-shadow: 5px 5px 10px rgb(238, 89, 89);
+    text-shadow: $text-shadow;
     font-family: 'EB Garamond', serif;
     animation: animation_title 2s ease forwards;
 }
@@ -66,7 +66,7 @@ nav {
 
 nav ul {
     list-style-type: none;
-    background-color: rgba(0, 0, 0, 0.575);
+    background-color: $ullinks;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -115,12 +115,12 @@ nav a:hover {
 .title {
     font-family: 'Abril Fatface', cursive;
     font-size: 40px;
-     margin: 0;
+    margin: 0;
     padding: 0;
 }
 
 .p-title {
-    color: black;
+    color: $primary-color;
     font-family: 'EB Garamond', serif;
     font-size: 30px;
     text-align: center;
@@ -280,16 +280,6 @@ a:hover {
     position: absolute;
     
 }
-// properties of up arrrow
-.up-arrow {
-    width: 100px;
-    height: 100px;
-    padding-left: 619px;
-}
-
-.devilp {
-    float: inline start;
-}
 
 // html gallery styling properties
 
@@ -303,6 +293,14 @@ a:hover {
     font-size: 30px;
     text-shadow: 5px 5px 10px red;
     font-weight: bold;
+}
+
+footer p {
+    background-color: rgba(44, 59, 192, 0.945);
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    font-weight: bolder;
+    font-size: 20px;
 }
 
 

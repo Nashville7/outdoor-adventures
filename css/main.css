@@ -86,7 +86,7 @@ nav a:hover {
   padding: 0; }
 
 .p-title {
-  color: black;
+  color: #1b1616;
   font-family: 'EB Garamond', serif;
   font-size: 30px;
   text-align: center;
@@ -209,14 +209,6 @@ a:hover {
   margin-top: 170px;
   position: absolute; }
 
-.up-arrow {
-  width: 100px;
-  height: 100px;
-  padding-left: 619px; }
-
-.devilp {
-  float: inline start; }
-
 .gallery-body {
   background-color: #e4cbac; }
 
@@ -226,6 +218,13 @@ a:hover {
   font-size: 30px;
   text-shadow: 5px 5px 10px red;
   font-weight: bold; }
+
+footer p {
+  background-color: rgba(44, 59, 192, 0.945);
+  color: black;
+  padding: 30px;
+  font-weight: bolder;
+  font-size: 20px; }
 
 .dropdown {
   display: inline-block;
