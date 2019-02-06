@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns:repeat(4, 1fr);
     grid-template-rows: repeat(4, 300px);
-    grid-gap: 10px;
+    grid-gap: 25px;
 }
 
 .gallery-container {
@@ -52,13 +52,14 @@ grid-column: span 2
     display: grid;
     grid-gap: 32px;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 50px ;
     font-family: 'Dosis', sans-serif;
     color: rgb(22, 22, 22);
     height: 100%;
     padding-top: 50px;
     font-size: 1.2rem;
     grid-template-areas: 
-                           'title title'
+                    'title title'
                     "hiking1 hiking2"
 
 }
@@ -146,6 +147,7 @@ grid-column: span 2
     width: 100%;
     background: url(../images/Tsitsikama.jpg);
     background-size: 100% 100%;
+    animation: animation_big 1s infinite;
     
 }
 
