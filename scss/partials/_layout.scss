@@ -54,7 +54,8 @@ grid-column: span 2
     grid-template-columns: repeat(2, 1fr);
     font-family: 'Dosis', sans-serif;
     color: rgb(22, 22, 22);
-    height: 100vh;
+    height: 100%;
+    padding-top: 50px;
     font-size: 1.2rem;
     grid-template-areas: 
                            'title title'
@@ -116,9 +117,9 @@ grid-column: span 2
     grid-template-columns: repeat(2, 1fr);
     font-family: 'Dosis', sans-serif;
     color: rgb(22, 22, 22);
-    height: 100vh;
+    height: 100%;
     font-size: 1.2rem;
-    padding-top: 250px;
+    padding-top: 50px;
     grid-template-areas: 
             'title title'
             "camping1 camping2"
@@ -178,9 +179,9 @@ grid-column: span 2
     grid-template-columns: repeat(2, 1fr);
     font-family: 'Dosis', sans-serif;
     color: rgb(22, 22, 22);
-    height: 100vh;
+    height: 100%;
     font-size: 1.2rem;
-    padding-top: 250px;
+    padding-top: 50px;
     grid-template-areas: 
             'title title'
             "hunting1 hunting2"
@@ -240,9 +241,9 @@ grid-column: span 2
     grid-template-columns: repeat(2, 1fr);
     font-family: 'Dosis', sans-serif;
     color: rgb(22, 22, 22);
-    height: 100vh;
+    height: 100%;
     font-size: 1.2rem;
-    padding-top: 250px;
+    padding-top: 50px;
     grid-template-areas: 
             'title title'
             "canoeing1 canoeing2"
@@ -302,9 +303,9 @@ grid-column: span 2
     grid-template-columns: repeat(2, 1fr);
     font-family: 'Dosis', sans-serif;
     color: rgb(22, 22, 22);
-    height: 100vh;
+    height: 100%;
     font-size: 1.2rem;
-    padding-top: 250px;
+    padding-top: 50px;
     grid-template-areas: 
             'title title'
             "climbing1 climbing2"
@@ -364,9 +365,9 @@ grid-column: span 2
     grid-template-columns: repeat(2, 1fr);
     font-family: 'Dosis', sans-serif;
     color: rgb(22, 22, 22);
-    height: 100vh;
+    height: 100%;
     font-size: 1.2rem;
-    padding-top: 250px;
+    padding-top: 50px;
     grid-template-areas: 
             'title title'
             "fishing1 fishing2"

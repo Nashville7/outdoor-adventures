@@ -20,6 +20,7 @@ body {
     margin: 0;
     padding: 0;
     cursor: pointer;
+    background-color: rgba(128, 128, 128, 0.445);
 }
 
 // styling of the header
@@ -112,16 +113,17 @@ nav a:hover {
 // title of the heading hiking
 
 .title {
-    font-family: 'Merienda', cursive;
-    font-size: 35px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 40px;
     
 }
 
 .p-title {
     color: black;
-    font-family: 'Poiret One', cursive;
+    font-family: 'EB Garamond', serif;
     font-size: 30px;
     text-align: center;
+    font-weight: bold;
     
 }
 
