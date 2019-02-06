@@ -1,5 +1,6 @@
 /* Base Styles -------------------- */
 
+// whole document
 html {
     scroll-behavior: smooth;
     transition: 0.20s;
@@ -7,37 +8,54 @@ html {
     padding-top: 0;
 }
 
+.container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+// propertiess for whole body
 body {
     margin: 0;
     padding: 0;
     cursor: pointer;
-    
 }
 
+// styling of the header
 header {
     background-image: url(../images/beach-bench-boardwalk-462024.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;
-    
+    height: 105vh;
 }
 
+// styling properties of the h1 heading
 .heading {
-    color: rgb(27, 22, 22);
+    color: $primary-color;
     text-align: center;
-    padding-top: 190px;
     font-size: 68px;
     text-shadow: 5px 5px 10px rgb(238, 89, 89);
     font-family: 'EB Garamond', serif;
-    height: 40vh;
+    animation: animation_title 2s ease forwards;
 }
 
+@keyframes animation_title {
+    from {
+        padding-top: 0%;
+        opacity: 0;
+    }
+    to {
+        padding-top: 14%;
+        opacity: 1;
+    }
+}
+// propertie of the h1 heading
 h1.heading {
     margin-top: 0;
 }
 
-// Navbar
+// Navbar properties
 
 nav {
     width: 100%;
@@ -80,6 +98,8 @@ nav a:hover {
 
 // end of navbar
 
+// properties of the hiking activity
+
 .hiking {
     background-color: rgba(223, 217, 217, 0.74);
     height: 100vh;
@@ -104,12 +124,13 @@ nav a:hover {
     
 }
 
-// link to website in activities
+// links to website in activities
 .read-more {
     font-size: 15px;
     color: rgba(192, 67, 67, 0.801);
 }
 
+// stying activities
 .camping {
     background-color: rgba(223, 217, 217, 0.74);
     height: 100vh;
@@ -154,6 +175,7 @@ nav a:hover {
     font-size: 20px;
     padding-top: 1px;
 }
+// end of styling of activities
 
 // form
 
@@ -162,7 +184,7 @@ nav a:hover {
 }
 
 .contact-body {
-    background-image: url(../images/photo-1508796079212-a4b83cbf734d.jpeg);
+    background-image: url(../images/form-bg.jpg);
     background-size: cover;
     font-family: sans-serif;
     font-size: 18px;
@@ -241,13 +263,16 @@ a:hover {
 
 // end of form
 
+// properties of down arrow
 .arrow {
     width: 100px;
     height: 100px;
     padding-left: 619px;
+    margin-top: 170px;
+    position: absolute;
     
 }
-
+// properties of up arrrow
 .up-arrow {
     width: 100px;
     height: 100px;

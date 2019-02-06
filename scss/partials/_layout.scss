@@ -46,7 +46,7 @@ grid-column: span 2
     
 }
 
-// Activities
+// Activities of the hiking
 
 .main-1 {
     display: grid;
@@ -54,6 +54,7 @@ grid-column: span 2
     grid-template-columns: repeat(2, 1fr);
     font-family: 'Dosis', sans-serif;
     color: rgb(22, 22, 22);
+    height: 100vh;
     font-size: 1.2rem;
     grid-template-areas: 
                            'title title'
@@ -93,13 +94,330 @@ grid-column: span 2
 }
 
 .hiking1:hover .image1 {
-    box-shadow: 0px 5px 20px rgba(10, 6, 6, 0.431),
-                -5px -10px 20px rgba(10, 6, 6, 0.431);
+    box-shadow: 10px 10px 20px black,
+               -10px -3px 20px black;
+    opacity: 1;
+    transition: box-shadow 0.5s ease-out;
 }
 .hiking2:hover .image2 {
-    box-shadow: 0px 5px 20px rgba(10, 6, 6, 0.431),
-                -5px -10px 20px rgba(10, 6, 6, 0.431);
+    box-shadow: 10px 10px 20px black,
+               -10px -3px 20px black;
+    opacity: 1;
+    transition: box-shadow 0.5s ease-out;
 }
+
+// end of the activity hiking
+
+// Activities of the Camping
+
+.main-2 {
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'Dosis', sans-serif;
+    color: rgb(22, 22, 22);
+    height: 100vh;
+    font-size: 1.2rem;
+    padding-top: 250px;
+    grid-template-areas: 
+            'title title'
+            "camping1 camping2"
+
+}
+
+.title {
+    grid-area: title;
+    text-align: center;
+}
+
+.camping1 {
+    grid-area: camping1;
+    padding: 15px;
+}
+
+.camping2 {
+    grid-area: camping2;
+    padding: 15px;
+}
+
+.image3 {
+    height: 20rem;
+    width: 100%;
+    background: url(../images/Tsitsikama.jpg);
+    background-size: 100% 100%;
+    
+}
+
+.image4 {
+    height: 20rem;
+    width: 100%;
+    background: url(../images/khomees.jpg);
+    background-size: 100% 100%;
+    
+}
+.camping1:hover .image3 {
+    box-shadow: 10px 10px 20px black, 
+               -10px -3px 20px black;
+    opacity: 1;
+    transition: box-shadow 0.5s ease-out;
+}
+.camping2:hover .image4 {
+    box-shadow: 10px 10px 20px black,
+               -10px -3px 20px black;
+    opacity: 1;
+    transition: box-shadow 0.5s ease-out;
+}
+
+// end of the activity camping
+
+// Activities of Hunting
+
+.main-3 {
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'Dosis', sans-serif;
+    color: rgb(22, 22, 22);
+    height: 100vh;
+    font-size: 1.2rem;
+    padding-top: 250px;
+    grid-template-areas: 
+            'title title'
+            "hunting1 hunting2"
+
+}
+
+.title {
+    grid-area: title;
+    text-align: center;
+}
+
+.hunting1 {
+    grid-area: hunting1;
+    padding: 15px;
+}
+
+.hunting2 {
+    grid-area: hunting2;
+    padding: 15px;
+}
+
+.image5 {
+    height: 20rem;
+    width: 100%;
+    background: url(../images/rietfontein.jpg);
+    background-size: 100% 100%;
+    
+}
+
+.image6 {
+    height: 20rem;
+    width: 100%;
+    background: url(../images/lazarus.jpg);
+    background-size: 100% 100%;
+    
+}
+
+.hunting1:hover .image5 {
+    box-shadow: 10px 10px 20px black,
+               -10px -3px 20px black;
+    opacity: 1;
+    transition: box-shadow 0.5s ease-out;
+}
+.hunting2:hover .image6 {
+    box-shadow: 10px 10px 20px black,
+               -10px -3px 20px black;
+    opacity: 1;
+    transition: box-shadow 0.5s ease-out;
+}
+// end of hunting activities
+
+// Activities of Canoeing
+
+.main-4 {
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'Dosis', sans-serif;
+    color: rgb(22, 22, 22);
+    height: 100vh;
+    font-size: 1.2rem;
+    padding-top: 250px;
+    grid-template-areas: 
+            'title title'
+            "canoeing1 canoeing2"
+
+}
+
+.title {
+    grid-area: title;
+    text-align: center;
+}
+
+.canoeing1 {
+    grid-area: canoeing1;
+    padding: 15px;
+}
+
+.canoeing2 {
+    grid-area: canoeing2;
+    padding: 15px;
+}
+
+.image7 {
+    height: 20rem;
+    width: 100%;
+    background: url(../images/palmiet.jpg);
+    background-size: 100% 100%;
+    
+}
+
+.image8 {
+    height: 20rem;
+    width: 100%;
+    background: url(../images/Hout-bay.jpg);
+    background-size: 100% 100%;
+    
+}
+
+.canoeing1:hover .image7 {
+    box-shadow: 10px 10px 20px black,
+               -10px -3px 20px black;
+    opacity: 1;
+    transition: box-shadow 0.5s ease-out;
+}
+.canoeing2:hover .image8 {
+    box-shadow: 10px 10px 20px black,
+               -10px -3px 20px black;
+    opacity: 1;
+    transition: box-shadow 0.5s ease-out;
+}
+// end of canoeing activities
+
+// Activities of Climbing
+
+.main-5 {
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'Dosis', sans-serif;
+    color: rgb(22, 22, 22);
+    height: 100vh;
+    font-size: 1.2rem;
+    padding-top: 250px;
+    grid-template-areas: 
+            'title title'
+            "climbing1 climbing2"
+
+}
+
+.title {
+    grid-area: title;
+    text-align: center;
+}
+
+.climbing1 {
+    grid-area: climbing1;
+    padding: 15px;
+}
+
+.climbing2 {
+    grid-area: climbing2;
+    padding: 15px;
+}
+
+.image9 {
+    height: 20rem;
+    width: 100%;
+    background: url(../images/table-mountain.jpg);
+    background-size: 100% 100%;
+    
+}
+
+.image10 {
+    height: 20rem;
+    width: 100%;
+    background: url(../images/gamkaberg.jpg);
+    background-size: 100% 100%;
+    
+}
+
+.climbing1:hover .image9 {
+    box-shadow: 10px 10px 20px black,
+               -10px -3px 20px black;
+    opacity: 1;
+    transition: box-shadow 0.5s ease-out;
+}
+.climbing2:hover .image10 {
+    box-shadow: 10px 10px 20px black,
+               -10px -3px 20px black;
+    opacity: 1;
+    transition: box-shadow 0.5s ease-out;
+}
+
+
+// Activities of fishing
+
+.main-6 {
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'Dosis', sans-serif;
+    color: rgb(22, 22, 22);
+    height: 100vh;
+    font-size: 1.2rem;
+    padding-top: 250px;
+    grid-template-areas: 
+            'title title'
+            "fishing1 fishing2"
+
+}
+
+.title {
+    grid-area: title;
+    text-align: center;
+}
+
+.fishing1 {
+    grid-area: fishing1;
+    padding: 15px;
+}
+
+.fishing2 {
+    grid-area: fishing2;
+    padding: 15px;
+}
+
+.image11 {
+    height: 20rem;
+    width: 100%;
+    background: url(../images/fishing\ La\ Lancha1.jpg);
+    background-size: 100% 100%;
+    
+}
+
+.image12 {
+    height: 20rem;
+    width: 100%;
+    background: url(../images/fishing\ Stanfordhills.jpg);
+    background-size: 100% 100%;
+    
+}
+
+.fishing1:hover .image11 {
+   box-shadow: 10px 10px 20px black,
+              -10px -3px 20px black;
+    opacity: 1;
+    transition: box-shadow 0.5s ease-out;
+}
+.fishing2:hover .image12 {
+    box-shadow: 10px 10px 20px black,
+               -10px -3px 20px black;
+    opacity: 1;
+    transition: box-shadow 0.5s ease-out;
+}
+
+// end of the activity fishing
 
 
 
