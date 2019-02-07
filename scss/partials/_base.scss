@@ -69,13 +69,11 @@ h1.heading {
 }
 
 // Navbar properties
-
 nav {
     width: 100%;
-    
-    
 }
 
+// navbar unordered list styling
 nav ul {
     list-style-type: none;
     background-color: $ullinks;
@@ -87,10 +85,13 @@ nav ul {
     margin-top: 0;
 }
 
+
+// navbar links
 nav li {
     float: left;
 }
 
+// navbar anchor tags
 nav a {
     @include navigate;
 }
@@ -101,12 +102,10 @@ nav a:hover {
     transition: 0.5s;
     text-shadow: 5px 10px 5px rgba(255, 196, 0, 0.404);
 }
-
 // end of navbar
 
 
 //  Properties & values of the heading of the activities
-
 .title {
     font-family: 'Abril Fatface', cursive;
     font-size: 40px;
@@ -115,18 +114,23 @@ nav a:hover {
 }
 
 // Properties & values of activities
-
 .p-title {
     color: $primary-color;
     font-family: 'EB Garamond', serif;
     font-size: 30px;
     text-align: center;
     font-weight: bold;
-   
+}
+
+// paragraphs properties
+.paragraph2 {
+    padding-right: 0px;
+    padding-right: 66px;
+    margin-left: 40px;
+    text-align: justify;
 }
 
 // a links to website
-
 .read-more {
     font-size: 15px;
     color: rgba(192, 67, 67, 0.801);
@@ -135,6 +139,7 @@ nav a:hover {
 
 // footer paragraph of the page
 footer p {
+    
     @include footie
  }
 
@@ -147,7 +152,7 @@ footer p {
 .up-arrow {
     width: 50px;
     height: 52px;
-    padding-left: 640px;
+    padding-left: 608px;
     margin-top: -87px;
     position: absolute;
 }

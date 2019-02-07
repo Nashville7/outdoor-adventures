@@ -28,7 +28,7 @@ header {
   color: #1b1616;
   text-align: center;
   font-size: 68px;
-  text-shadow: 5px 5px 10px #ee5959;
+  text-shadow: 5px 5px 10px #00a8e2;
   font-family: 'EB Garamond', serif;
   animation: move 2s ease forwards; }
 
@@ -92,13 +92,19 @@ nav a:hover {
   text-align: center;
   font-weight: bold; }
 
+.paragraph2 {
+  padding-right: 0px;
+  padding-right: 66px;
+  margin-left: 40px;
+  text-align: justify; }
+
 .read-more {
   font-size: 15px;
   color: rgba(192, 67, 67, 0.801);
   font-weight: bold; }
 
 footer p {
-  background-color: rgba(44, 59, 192, 0.945);
+  background-color: rgba(174, 175, 184, 0.9);
   color: black;
   padding: 30px;
   font-weight: bolder;
@@ -111,7 +117,7 @@ footer {
 .up-arrow {
   width: 50px;
   height: 52px;
-  padding-left: 640px;
+  padding-left: 608px;
   margin-top: -87px;
   position: absolute; }
 
@@ -233,7 +239,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 300px);
-  grid-gap: 25px; }
+  grid-gap: 20px; }
 
 .gallery-container {
   padding: 20px; }
@@ -251,15 +257,13 @@ footer {
   height: 100%;
   width: 100%;
   object-fit: cover;
-  box-shadow: 10px 10px 20px black, -10px -3px 20px black;
-  opacity: 0.8;
-  transition: box-shadow 0.5s ease-out; }
+  opacity: 0.8; }
 
 .gallery img:hover {
   color: white;
-  box-shadow: 20px 20px 40px black, -20px -5px 40px black;
+  box-shadow: 7px 6px 7px black, -12px -5px 9px black;
   opacity: 1;
-  transition: box-shadow 0.5s ease-out; }
+  transition: box-shadow 0.2s ease-out; }
 
 .main-1 {
   display: grid;
@@ -348,7 +352,7 @@ footer {
   background-size: 100% 100%; }
 
 .camping1:hover .image3 {
-  box-shadow: 10px 10px 20px black,  -10px -3px 20px black;
+  box-shadow: 10px 10px 20px black, -10px -3px 20px black;
   opacity: 1;
   transition: box-shadow 0.5s ease-out; }
 
