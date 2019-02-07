@@ -5,6 +5,44 @@
 
 
 
-@mixin grid {
- 
+@mixin navigate {
+    text-decoration: none;
+    font-size: 22px;
+    text-align: center;
+    display: block;
+    padding: 11px 6px;
+    padding-right: 45px;
+    color: white;
+    font-family: 'Jacques Francois', serif;  
 }
+
+@mixin footie {
+    background-color: rgba(44, 59, 192, 0.945);
+    color: rgb(0, 0, 0);
+    padding: 30px;
+    font-weight: bolder;
+    font-size: 20px;
+    width: 100%;
+}
+
+@mixin grid {
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'Dosis', sans-serif;
+    color: rgb(22, 22, 22);
+    height: 100%;
+    font-size: 1.2rem;
+    padding-top: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.315);
+}
+
+@mixin size {
+    height: 20rem;
+    width: 100%;
+    background-size: 100% 100%;
+}
+
+
+
+

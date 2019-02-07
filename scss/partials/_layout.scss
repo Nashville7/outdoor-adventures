@@ -22,7 +22,6 @@ grid-column: span 2
 
 .fishie {
     grid-column: span 2
-    
 }
 
 // gallery images properties
@@ -43,25 +42,15 @@ grid-column: span 2
                -20px -5px 40px black;
     opacity: 1;
     transition: box-shadow 0.5s ease-out;
-    
 }
 
 // Activities of the hiking
 
 .main-1 {
-    display: grid;
-    grid-gap: 32px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: 50px ;
-    font-family: 'Dosis', sans-serif;
-    color: rgb(22, 22, 22);
-    height: 100%;
-    padding-top: 50px;
-    font-size: 1.2rem;
+    @include grid;
     grid-template-areas: 
                     'title title'
                     "hiking1 hiking2"
-
 }
 
 .title {
@@ -80,19 +69,15 @@ grid-column: span 2
 }
 
 .image1 {
-    height: 20rem;
-    width: 100%;
-    background: url(../images/devils-peak.jpg);
+    @include size;
+    background: url(../images/devils-peak.jpg); 
     background-size: 100% 100%;
-    
 }
 
 .image2 {
-    height: 20rem;
-    width: 100%;
+    @include size;
     background: url(../images/Lions-head.jpg);
-    background-size: 100% 100%;
-    
+    background-size: 100% 100%; 
 }
 
 .hiking1:hover .image1 {
@@ -113,18 +98,10 @@ grid-column: span 2
 // Activities of the Camping
 
 .main-2 {
-    display: grid;
-    grid-gap: 32px;
-    grid-template-columns: repeat(2, 1fr);
-    font-family: 'Dosis', sans-serif;
-    color: rgb(22, 22, 22);
-    height: 100%;
-    font-size: 1.2rem;
-    padding-top: 50px;
+    @include grid;
     grid-template-areas: 
             'title title'
             "camping1 camping2"
-
 }
 
 .title {
@@ -143,21 +120,17 @@ grid-column: span 2
 }
 
 .image3 {
-    height: 20rem;
-    width: 100%;
+    @include size;
     background: url(../images/Tsitsikama.jpg);
     background-size: 100% 100%;
-    animation: animation_big 1s infinite;
-    
 }
 
 .image4 {
-    height: 20rem;
-    width: 100%;
+    @include size;
     background: url(../images/khomees.jpg);
     background-size: 100% 100%;
-    
 }
+
 .camping1:hover .image3 {
     box-shadow: 10px 10px 20px black, 
                -10px -3px 20px black;
@@ -176,18 +149,10 @@ grid-column: span 2
 // Activities of Hunting
 
 .main-3 {
-    display: grid;
-    grid-gap: 32px;
-    grid-template-columns: repeat(2, 1fr);
-    font-family: 'Dosis', sans-serif;
-    color: rgb(22, 22, 22);
-    height: 100%;
-    font-size: 1.2rem;
-    padding-top: 50px;
+    @include grid;
     grid-template-areas: 
             'title title'
             "hunting1 hunting2"
-
 }
 
 .title {
@@ -206,19 +171,15 @@ grid-column: span 2
 }
 
 .image5 {
-    height: 20rem;
-    width: 100%;
+    @include size;
     background: url(../images/rietfontein.jpg);
     background-size: 100% 100%;
-    
 }
 
 .image6 {
-    height: 20rem;
-    width: 100%;
+    @include size;
     background: url(../images/lazarus.jpg);
     background-size: 100% 100%;
-    
 }
 
 .hunting1:hover .image5 {
@@ -238,18 +199,10 @@ grid-column: span 2
 // Activities of Canoeing
 
 .main-4 {
-    display: grid;
-    grid-gap: 32px;
-    grid-template-columns: repeat(2, 1fr);
-    font-family: 'Dosis', sans-serif;
-    color: rgb(22, 22, 22);
-    height: 100%;
-    font-size: 1.2rem;
-    padding-top: 50px;
+    @include grid;
     grid-template-areas: 
             'title title'
             "canoeing1 canoeing2"
-
 }
 
 .title {
@@ -268,19 +221,15 @@ grid-column: span 2
 }
 
 .image7 {
-    height: 20rem;
-    width: 100%;
+    @include size;
     background: url(../images/palmiet.jpg);
-    background-size: 100% 100%;
-    
+    background-size: 100% 100%; 
 }
 
 .image8 {
-    height: 20rem;
-    width: 100%;
+    @include size;
     background: url(../images/Hout-bay.jpg);
     background-size: 100% 100%;
-    
 }
 
 .canoeing1:hover .image7 {
@@ -300,18 +249,10 @@ grid-column: span 2
 // Activities of Climbing
 
 .main-5 {
-    display: grid;
-    grid-gap: 32px;
-    grid-template-columns: repeat(2, 1fr);
-    font-family: 'Dosis', sans-serif;
-    color: rgb(22, 22, 22);
-    height: 100%;
-    font-size: 1.2rem;
-    padding-top: 50px;
+  @include grid;
     grid-template-areas: 
             'title title'
             "climbing1 climbing2"
-
 }
 
 .title {
@@ -330,19 +271,15 @@ grid-column: span 2
 }
 
 .image9 {
-    height: 20rem;
-    width: 100%;
+    @include size;
     background: url(../images/table-mountain.jpg);
-    background-size: 100% 100%;
-    
+    background-size: 100% 100%; 
 }
 
 .image10 {
-    height: 20rem;
-    width: 100%;
+    @include size;
     background: url(../images/gamkaberg.jpg);
-    background-size: 100% 100%;
-    
+    background-size: 100% 100%;  
 }
 
 .climbing1:hover .image9 {
@@ -362,18 +299,10 @@ grid-column: span 2
 // Activities of fishing
 
 .main-6 {
-    display: grid;
-    grid-gap: 32px;
-    grid-template-columns: repeat(2, 1fr);
-    font-family: 'Dosis', sans-serif;
-    color: rgb(22, 22, 22);
-    height: 100%;
-    font-size: 1.2rem;
-    padding-top: 50px;
+    @include grid;
     grid-template-areas: 
             'title title'
             "fishing1 fishing2"
-
 }
 
 .title {
@@ -392,19 +321,15 @@ grid-column: span 2
 }
 
 .image11 {
-    height: 20rem;
-    width: 100%;
+    @include size;
     background: url(../images/fishing\ La\ Lancha1.jpg);
-    background-size: 100% 100%;
-    
+    background-size: 100% 100%; 
 }
 
 .image12 {
-    height: 20rem;
-    width: 100%;
+    @include size;
     background: url(../images/fishing\ Stanfordhills.jpg);
-    background-size: 100% 100%;
-    
+    background-size: 100% 100%;  
 }
 
 .fishing1:hover .image11 {
