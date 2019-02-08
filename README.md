@@ -1,5 +1,5 @@
-# Nashville_James_CV
-My CV
+# outdoor-adventures
+project-2
 
 ## Setting up your workspace
 
@@ -11,16 +11,16 @@ My CV
 
 ## Introduction
 
-- This is a Online Curriculum Vitae of Nashville James, using Hyper Text Markup language(HTML) and Cascading Style Sheets(CSS)
+- This is a Outdoor Adventures project dobe by Nashville James, using Hyper Text Markup language(HTML) and Cascading Style Sheets(Sass)
 -
 
 ## Description
 
-- CV of Nashville James.Showcasing everything i have learned,about web development untill now.
+- Outdoor Adventures project.Showcasing everything i have learned,about web development untill now.
 
 ## Purpose
 
-- To display my coding skills for a career as a web developer.
+- To display my coding skills.
 
 # How to set up project
 - 1) In the upper-right corner of any page,click,and then click new repository.
@@ -78,6 +78,8 @@ Tools:
 ## Author
 
 Nashville James - 2019
+
+
 
 
 
