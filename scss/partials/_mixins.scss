@@ -25,17 +25,6 @@
     width: 100%;
 }
 
-@mixin grid {
-    display: grid;
-    grid-gap: 32px;
-    grid-template-columns: repeat(2, 1fr);
-    font-family: 'Dosis', sans-serif;
-    color: rgb(22, 22, 22);
-    height: 100%;
-    font-size: 1.2rem;
-    padding-top: 50px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.315);
-}
 
 @mixin size {
     height: 20rem;

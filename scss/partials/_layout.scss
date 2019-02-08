@@ -38,9 +38,17 @@
 // start of the hiking activity on homepage
 // activities with their properties & values
 .main-1 {
-    @include grid;
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'Dosis', sans-serif;
+    color: rgb(22, 22, 22);
+    height: 100%;
+    font-size: 1.2rem;
+    padding-top: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.315);
     grid-template-areas: 
-            'title title'
+            "title title"
             "hiking1 hiking2"
 }
 
@@ -92,7 +100,15 @@
 
 // // start of the camping activity
 .main-2 {
-    @include grid;
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'Dosis', sans-serif;
+    color: rgb(22, 22, 22);
+    height: 100%;
+    font-size: 1.2rem;
+    padding-top: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.315);
     grid-template-areas: 
             'title title'
             "camping1 camping2"
@@ -142,7 +158,15 @@
 
 // // start of the hunting activity
 .main-3 {
-    @include grid;
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'Dosis', sans-serif;
+    color: rgb(22, 22, 22);
+    height: 100%;
+    font-size: 1.2rem;
+    padding-top: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.315);
     grid-template-areas: 
             'title title'
             "hunting1 hunting2"
@@ -191,7 +215,15 @@
 
 // start of the canoeing activity
 .main-4 {
-    @include grid;
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'Dosis', sans-serif;
+    color: rgb(22, 22, 22);
+    height: 100%;
+    font-size: 1.2rem;
+    padding-top: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.315);
     grid-template-areas: 
             'title title'
             "canoeing1 canoeing2"
@@ -240,7 +272,15 @@
 
 // start of the climbing activity
 .main-5 {
-  @include grid;
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'Dosis', sans-serif;
+    color: rgb(22, 22, 22);
+    height: 100%;
+    font-size: 1.2rem;
+    padding-top: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.315);
     grid-template-areas: 
             'title title'
             "climbing1 climbing2"
@@ -290,7 +330,15 @@
 
 // start of the fishing activity
 .main-6 {
-    @include grid;
+    display: grid;
+    grid-gap: 32px;
+    grid-template-columns: repeat(2, 1fr);
+    font-family: 'Dosis', sans-serif;
+    color: rgb(22, 22, 22);
+    height: 100%;
+    font-size: 1.2rem;
+    padding-top: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.315);
     grid-template-areas: 
             'title title'
             "fishing1 fishing2"
