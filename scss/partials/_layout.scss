@@ -1,5 +1,5 @@
 
-// gallery made into a grid
+// masonry type gallery
 .gallery {
     display: grid;
     grid-template-columns:repeat(4, 1fr);
@@ -25,12 +25,13 @@ grid-column: span 2
 }
 
 // gallery images properties
-
 .gallery img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     opacity: 0.8;
+    
+    
 }
 
 .gallery img:hover {
@@ -39,19 +40,22 @@ grid-column: span 2
     opacity: 1;
     transition: box-shadow 0.2s ease-out;
 }
+// end of the masonry type gallery
 
-// Activities of the hiking
-
+// start of the hiking activity
+// activities with their properties & values
 .main-1 {
     @include grid;
     grid-template-areas: 
-                    'title title'
-                    "hiking1 hiking2"
+            'title title'
+            "hiking1 hiking2"
 }
 
+// centering the title
 .title {
     grid-area: title;
     text-align: center;
+    letter-spacing: 2px;
 }
 
 .hiking1 {
@@ -64,6 +68,7 @@ grid-column: span 2
     padding: 15px;
 }
 
+// image
 .image1 {
     @include size;
     background: url(../images/devils-peak.jpg); 
@@ -76,6 +81,7 @@ grid-column: span 2
     background-size: 100% 100%; 
 }
 
+// hover of the image
 .hiking1:hover .image1 {
     box-shadow: 10px 10px 20px black,
                -10px -3px 20px black;
@@ -88,11 +94,9 @@ grid-column: span 2
     opacity: 1;
     transition: box-shadow 0.5s ease-out;
 }
+// end of the hiking activity
 
-// end of the activity hiking
-
-// Activities of the Camping
-
+// // start of the camping activity
 .main-2 {
     @include grid;
     grid-template-areas: 
@@ -103,6 +107,7 @@ grid-column: span 2
 .title {
     grid-area: title;
     text-align: center;
+    
 }
 
 .camping1 {
@@ -139,11 +144,9 @@ grid-column: span 2
     opacity: 1;
     transition: box-shadow 0.5s ease-out;
 }
+// end of the camping activity
 
-// end of the activity camping
-
-// Activities of Hunting
-
+// // start of the hunting activity
 .main-3 {
     @include grid;
     grid-template-areas: 
@@ -190,10 +193,9 @@ grid-column: span 2
     opacity: 1;
     transition: box-shadow 0.5s ease-out;
 }
-// end of hunting activities
+// end of the hunting activity
 
-// Activities of Canoeing
-
+// start of the canoeing activity
 .main-4 {
     @include grid;
     grid-template-areas: 
@@ -240,10 +242,9 @@ grid-column: span 2
     opacity: 1;
     transition: box-shadow 0.5s ease-out;
 }
-// end of canoeing activities
+// end of the canoeing activity
 
-// Activities of Climbing
-
+// start of the climbing activity
 .main-5 {
   @include grid;
     grid-template-areas: 
@@ -290,10 +291,10 @@ grid-column: span 2
     opacity: 1;
     transition: box-shadow 0.5s ease-out;
 }
+// end of the climbing activity
 
 
-// Activities of fishing
-
+// start of the fishing activity
 .main-6 {
     @include grid;
     grid-template-areas: 
@@ -340,8 +341,8 @@ grid-column: span 2
     opacity: 1;
     transition: box-shadow 0.5s ease-out;
 }
-
 // end of the activity fishing
+// end of activities with their properties & values
 
 
 

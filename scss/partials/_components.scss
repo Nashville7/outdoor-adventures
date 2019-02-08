@@ -1,8 +1,15 @@
+@font-face {
+    font-family: 'Poiret One';
+    src: url(../fonts/PoiretOne-Regular.ttf);
+}
 
+
+
+
+// dropdown for activities navbar
 .dropdown {
     display: inline-block;
-    top: 0;
-    
+    top: 0; 
 }
 
 .dropdown-content {
@@ -13,10 +20,9 @@
     margin-top: 0;
     position: absolute;
     background-color: rgba(0, 0, 0, 0.575);
-    
-    
 }
 
+// styling the a tags
 .dropdown-content a {
     color: white;
     padding: 15px;
@@ -24,6 +30,7 @@
     display: block;
 }
 
+// hover on the a tags
 .dropdown-content a:hover {
     background-color: white;
     color: black;
@@ -32,11 +39,11 @@
 
 .dropdown:hover .dropdown-content {
     display: block;
-    animation: load 1.2s forwards;
+    animation: shift 1.2s forwards;
    
 }
-
-@keyframes load {
+// animation moving forward
+@keyframes shift {
     0% {
         transform: translateX(25px);
     }
@@ -45,5 +52,15 @@
         transform: translate(0px);
     }
 }
+
+//  arrow up properties & values
+.up-arrow {
+    width: 50px;
+    height: 52px;
+    left: 38rem;
+    margin-top: -87px;
+    position: absolute;
+}
+ 
 
 

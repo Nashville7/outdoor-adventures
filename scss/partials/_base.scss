@@ -29,7 +29,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;
+    height: 40rem;
 }
 
 // styling properties of the h1 heading
@@ -38,7 +38,8 @@ header {
     text-align: center;
     font-size: 68px;
     text-shadow: $text-shadow;
-    font-family: 'EB Garamond', serif;
+    // font-family: 'EB Garamond', serif;
+    font-family: 'Poiret One';
     animation: move 2s ease forwards;
 }
 
@@ -54,19 +55,11 @@ header {
     }
 }
 
-// properties of the h1 heading
+// property of the h1 heading
 h1.heading {
     margin-top: 0;
 }
 
-// properties of the down arrow
-.arrow {
-    width: 100px;
-    height: 100px;
-    padding-left: 619px;
-    margin-top: 170px;
-    position: absolute;
-}
 
 // Navbar properties
 nav {
@@ -107,7 +100,6 @@ nav a:hover {
 
 //  Properties & values of the heading of the activities
 .title {
-    font-family: 'Abril Fatface', cursive;
     font-size: 40px;
     margin: 0;
     padding: 0;
@@ -147,25 +139,15 @@ footer p {
      position: relative;
  }
 
-//  arrow up properties & values
-
-.up-arrow {
-    width: 50px;
-    height: 52px;
-    padding-left: 608px;
-    margin-top: -87px;
-    position: absolute;
-}
- 
 // end of styling of the activities
 
 
 // html gallery styling properties
-
 .gallery-body {
     background-color: rgb(228, 203, 172);
 }
 
+// heading of the masonry type gallery
 .heading-1 {
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -176,28 +158,32 @@ footer p {
 
 
 // start of the contact form
-
+// properties & values of the form
 .form {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     background: url(../images/form-bg.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 42rem;
+    overflow-x: hidden;
+    
 }
 
 .box {
     position: absolute;
-    top: 20%;
+    top: 1%;
     left: 40%;
     transform: translate(-50,-50%);
     width: 400px;
-    background: rgba(0,0,0,.8);
     padding: 40px;
     box-sizing: border-box;
-    box-shadow: 0 15px 25px rgba(0,0,0,.5);
     border-radius: 10px;
 }
 
+// heading of the form
 .box h2 {
    margin: 0;
    padding: 0;
@@ -210,7 +196,7 @@ footer p {
 
 }
 
-.box .inputBox input {
+.box .inputBox input  {
    width: 100%;
    padding: 10px 0;
    font-size: 16px;
@@ -221,6 +207,46 @@ footer p {
    outline: none;
    background: transparent;
    
+}
+
+// message box
+.box .inputBox textarea[name="message"] {
+    width: 100%;
+    border: 1px solid rgb(245, 245, 245);
+    background-color: transparent;
+}
+
+.box .inputBox textarea[placeholder="Write a message..." ] {
+    padding: 5px;
+    color: white;
+}
+
+.box .inputBox label[ for="message"] {
+    top: -35%;
+}
+// end of the message box
+
+// dropdown of activities
+.box .inputBox select[name="activity" ] {
+    width: 100%;
+    outline: none;
+    float: left;
+    color: rgba(0, 0, 255, 0.651);
+    padding: 0px 0;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    
+}
+// heading of the dropdown activities
+.box .inputBox label[ value="choose"]{
+    top: -2rem;
+}
+// end of dropdown of activities
+
+.box .inputBox  {
+    width: 100%;
+    
 }
 
 .box .inputBox label {
@@ -238,24 +264,44 @@ footer p {
 .box .inputBox input:valid ~ label  {
    top: -18px;
    left: 0;
-   color: #03a9f4;
+   color: #ffffff;
    font-size: 12px;
 }
+
+
 
 .box input[type="submit"] {
     background: transparent;
     border: none;
     outline: none;
     color: #fff;
-    background: #03a9f4;
+    background: #0000004d;
     padding: 10px 20px;
     cursor: pointer;
-    border-radius: 5px;
-    width: 100px;
+    width: auto;
 }
 
 .box input:hover[type="submit"] {
-    background-color: #006797;
+    background-color: rgba(0, 0, 0, 0.842);
+    border-color: #fff;
+    border: 1px solid white;
 }
 
 // end of the contact form
+
+select {
+    //  border: none;
+    //  outline: none;
+    //  background: transparent;
+    //  color: white;
+    // -webkit-appearance: none;
+    background-image: url(../icon/white-down-arrow-png-2.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    width: 200px;
+    // text-overflow: '';
+    // color: white;
+    
+
+
+}
