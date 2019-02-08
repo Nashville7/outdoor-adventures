@@ -3,8 +3,8 @@
 .gallery {
     display: grid;
     grid-template-columns:repeat(4, 1fr);
-    grid-template-rows: repeat(4, 300px);
     grid-gap: 20px;
+    width: 100%;
 }
 
 .gallery-container {
@@ -12,26 +12,19 @@
 }
 
 // classes of images in the gallery
-.campie {
-grid-column: span 2
+.hunted {
+    grid-column: span 2;
 }
 
-.canoe {
-    grid-column: span 2
-}
-
-.fishie {
-    grid-column: span 2
+.climb {
+    grid-column: span 1;
 }
 
 // gallery images properties
 .gallery img {
     height: 100%;
     width: 100%;
-    object-fit: cover;
     opacity: 0.8;
-    
-    
 }
 
 .gallery img:hover {

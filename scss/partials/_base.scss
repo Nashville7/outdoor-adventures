@@ -144,7 +144,7 @@ footer p {
 
 // html gallery styling properties
 .gallery-body {
-    background-color: rgb(228, 203, 172);
+    background-color: $bgcolor;
 }
 
 // heading of the masonry type gallery
@@ -152,8 +152,8 @@ footer p {
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 30px;
-    text-shadow: 5px 5px 10px red;
     font-weight: bold;
+    color: rgba(0, 0, 255, 0.425);
 }
 
 
