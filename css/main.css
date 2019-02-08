@@ -581,7 +581,7 @@ select {
 /* Responsive Design */
 /* Mobile Devices */
 /* Portrait and Landscape */
-@media (max-width: 426px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) and (-webkit-min-device-pixel-ratio: 1) {
   .main-1 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
