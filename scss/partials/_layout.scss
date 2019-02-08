@@ -35,7 +35,7 @@
 }
 // end of the masonry type gallery
 
-// start of the hiking activity
+// start of the hiking activity on homepage
 // activities with their properties & values
 .main-1 {
     @include grid;
@@ -49,6 +49,7 @@
     grid-area: title;
     text-align: center;
     letter-spacing: 2px;
+    font-family: 'Abril Fatface', cursive;
 }
 
 .hiking1 {

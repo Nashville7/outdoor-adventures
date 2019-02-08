@@ -315,7 +315,8 @@ select {
 .title {
   grid-area: title;
   text-align: center;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  font-family: 'Abril Fatface', cursive; }
 
 .hiking1 {
   grid-area: hiking1;
