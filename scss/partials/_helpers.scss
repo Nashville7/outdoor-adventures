@@ -2,8 +2,7 @@
 .container {
     width: 100%;
     height: 100%;
-    overflow-x: hidden;
-    
+    overflow-x: hidden;    
 }
 
 // styling properties of the h1 heading
@@ -12,7 +11,6 @@
     text-align: center;
     font-size: 68px;
     text-shadow: $text-shadow;
-    // font-family: 'EB Garamond', serif;
     font-family: 'Poiret One';
     animation: move 2s ease forwards;
 }
@@ -28,8 +26,6 @@
         opacity: 1;
     }
 }
-
-
 
 //  Properties & values of the heading of the activities
 .title {
@@ -64,8 +60,6 @@
     font-weight: bold;
 }
 
-
-
 // html gallery styling properties
 .gallery-body {
     background-color: $bgcolor;
@@ -79,8 +73,6 @@
     font-weight: bold;
     color: rgba(106, 121, 127, 0.8);
 }
-
-
 
 // start of the contact form
 // properties & values of the form
@@ -113,12 +105,12 @@
    text-align: center;
 }
 
-.contact-form .inputBox {
+.contact-form .input-field {
    position: relative;
 
 }
 
-.contact-form .inputBox input  {
+.contact-form .input-field input  {
    width: 100%;
    padding: 10px 0;
    font-size: 16px;
@@ -132,46 +124,53 @@
 }
 
 // message box
-.contact-form .inputBox textarea[name="message"] {
+.contact-form .input-field textarea[name="message"] {
     width: 100%;
     border: 1px solid rgb(245, 245, 245);
     background-color: transparent;
 }
 
-.contact-form .inputBox textarea[placeholder="Write a message..." ] {
+.contact-form .input-field textarea[placeholder="Write a message..." ] {
     padding: 5px;
     color: white;
 }
 
-.contact-form .inputBox label[ for="message"] {
+.contact-form .input-field label[ for="message"] {
     top: -35%;
 }
 // end of the message box
 
 // dropdown of activities
-.contact-form .inputBox select[name="activity" ] {
+.contact-form .input-field select[name="activity" ] {
     width: 100%;
     outline: none;
     float: left;
-    color: rgba(0, 0, 255, 0.651);
+    color: rgb(255, 255, 255);
     padding: 0px 0;
     border: none;
     border-bottom: 1px solid #fff;
     background: transparent;
-    
 }
+
+.contact-form .input-field option {
+    color: rgb(0, 0, 0);
+}
+
+
+
+
 // heading of the dropdown activities
-.contact-form .inputBox label[ value="choose"]{
+.contact-form .input-field label[ value="choose"]{
     top: -2rem;
 }
 // end of dropdown of activities
 
-.contact-form .inputBox  {
+.contact-form .input-field  {
     width: 100%;
     
 }
 
-.contact-form .inputBox label {
+.contact-form .input-field label {
    position: absolute;
    top: 0;
    left: 0;
@@ -182,8 +181,8 @@
    transition: .5s;
 }
 
-.contact-form .inputBox input:focus ~ label,
-.contact-form .inputBox input:valid ~ label  {
+.contact-form .input-field input:focus ~ label,
+.contact-form .input-field input:valid ~ label  {
    top: -18px;
    left: 0;
    color: #ffffff;
