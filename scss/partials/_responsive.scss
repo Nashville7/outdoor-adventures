@@ -433,6 +433,17 @@ footer p {
    margin-top: 0;
 }
 
+.contact-form {
+   position: absolute;
+   top: 5%;
+   left: 40%;
+   transform: translate(-50, -50%);
+   width: 400px;
+   padding: 40px;
+   box-sizing: border-box;
+   border-radius: 10px;
+}
+
       
  }
 
@@ -447,4 +458,8 @@ footer p {
          left: 38rem;;
          
       }
+
+      .contact-form {
+         top: 6%;
+     }
  }

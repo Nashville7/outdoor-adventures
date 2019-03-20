@@ -74,8 +74,8 @@ nav a:hover {
 
 // footer paragraph of the page
 footer p {
-    
-    @include footie
+    @include footie;
+    margin-top: 0;
  }
 
  footer {

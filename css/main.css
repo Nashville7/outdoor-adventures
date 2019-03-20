@@ -59,7 +59,8 @@ footer p {
   color: black;
   padding: 30px;
   font-weight: bolder;
-  font-size: 20px; }
+  font-size: 20px;
+  margin-top: 0; }
 
 footer {
   position: relative; }
@@ -869,11 +870,24 @@ select {
     margin-top: 33px; }
 
   footer p {
-    margin-top: 0; } }
+    margin-top: 0; }
+
+  .contact-form {
+    position: absolute;
+    top: 5%;
+    left: 40%;
+    transform: translate(-50, -50%);
+    width: 400px;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 10px; } }
 /* Responsive Design
    /*Desktop*/
 @media screen and (min-device-width: 1024px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
   .up-arrow {
-    left: 38rem; } }
+    left: 38rem; }
+
+  .contact-form {
+    top: 6%; } }
 
 /*# sourceMappingURL=main.css.map */
