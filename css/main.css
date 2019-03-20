@@ -594,7 +594,7 @@ select {
 
   .dropdown:hover .dropdown-content {
     animation: none;
-    left: 30.3vw; }
+    left: 30.8vw; }
 
   .dropdown-content {
     display: none;
@@ -820,7 +820,7 @@ select {
     top: 15%;
     left: 0%;
     transform: translate(-50, -50%);
-    width: 320px;
+    width: 100%;
     padding: 40px; }
 
   .contact-details {
@@ -833,7 +833,7 @@ select {
     background: url(../images/form-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 165vh; }
+    height: 130vh; }
 
   .gallery {
     display: block;
