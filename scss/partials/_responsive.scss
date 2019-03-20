@@ -14,6 +14,96 @@
     and (max-device-width: 767px) 
     and (-webkit-min-device-pixel-ratio: 1){
 
+
+      // navbar unordered list styling
+   nav ul {
+      display: grid;
+   }
+
+   nav a {
+      padding: 0 0 20px 0;
+      transition: none;
+      font-size: 20px;
+   }
+
+   
+.dropdown:hover .dropdown-content {
+   animation: none;
+   // left: 30vw;
+   left: 30.3vw;
+  
+}
+
+.dropdown-content {
+   display: none;
+   background-color: rgb(0, 0, 0);
+   width: 34vw;
+}
+
+// styling the a tags
+.dropdown-content a {
+   padding: 3px;
+   font-size: 19px;
+}
+
+.heading {
+   font-size: 34px;
+}
+
+.title {
+   font-size: 28px;
+   margin-top: -21px;
+   margin-bottom: 12px;
+   
+
+}
+
+h1.heading {
+   margin-top: 0;
+}
+
+header {
+   height: 30rem;
+}
+
+
+.main-1,
+.main-2,
+.main-3,
+.main-4,
+.main-5,
+.main-6 {
+   grid-gap: 1px;
+}
+
+// all images
+.image1,
+.image2,
+.image3,
+.image4,
+.image5,
+.image6,
+.image7,
+.image8,
+.image9,
+.image10,
+.image11,
+.image12 {
+   width: 18rem;
+   height: 16rem;
+}
+
+.paragraph2 {
+   padding-right: 26px;
+   margin-left: 19px;
+   font-size: 0.9rem;
+   margin-bottom: 56px;
+}
+
+.read-more {
+   font-size: 12px;
+}
+
 // Hiking
    .main-1 {
       display: grid;
@@ -32,17 +122,20 @@
    .hiking2 {
       grid-area: hiking2;
       grid-template-columns: span 2;
+      margin-top: -60px;
    }
 
    .image1 {
       grid-area: hiking1;
       grid-template-columns: span 2;
+      width: 100%;
 
    }
 
    .image2 {
       grid-area: hiking2;
       grid-template-columns: span 2;
+      width: 100%;
    }
 // end of hiking
 
@@ -54,7 +147,7 @@
       grid-template-areas:
                "title" 
                "camping1" 
-              "camping2";
+               "camping2";
    }
 
    .camping1 {
@@ -65,17 +158,20 @@
    .camping2 {
       grid-area: camping2;
       grid-template-columns: span 2;
+      margin-top: -60px;
    }
 
    .image3 {
       grid-area: camping1;
       grid-template-columns: span 2;
+      width: 100%;
 
    }
 
    .image4 {
       grid-area: camping2;
       grid-template-columns: span 2;
+      width: 100%;
    }
 
 // end of camping
@@ -99,17 +195,19 @@
    .hunting2 {
       grid-area: hunting2;
       grid-template-columns: span 2;
+      margin-top: -60px;
    }
 
    .image5 {
       grid-area: hunting1;
       grid-template-columns: span 2;
-
+      width: 100%;
    }
 
    .image6 {
       grid-area: hunting2;
       grid-template-columns: span 2;
+      width: 100%;
    }
 // end of hunting
 
@@ -131,17 +229,20 @@
    .canoeing2 {
       grid-area: canoeing2;
       grid-template-columns: span 2;
+      margin-top: -60px;
    }
 
    .image7 {
       grid-area: canoeing1;
       grid-template-columns: span 2;
+      width: 100%;
 
    }
 
    .image8 {
       grid-area: canoeing2;
       grid-template-columns: span 2;
+      width: 100%;
    }
 // end of canoeing
 
@@ -163,17 +264,21 @@
 .climbing2 {
    grid-area: climbing2;
    grid-template-columns: span 2;
+   margin-top: -60px;
+   margin-top: -60px;
 }
 
 .image9 {
    grid-area: climbing1;
    grid-template-columns: span 2;
+   width: 100%;
 
 }
 
 .image10 {
    grid-area: climbing2;
    grid-template-columns: span 2;
+   width: 100%;
 }
 // end of climbing
 
@@ -195,17 +300,20 @@
 .fishing2 {
    grid-area: fishing2;
    grid-template-columns: span 2;
+   margin-top: -60px;
 }
 
 .image11 {
    grid-area: fishing1;
    grid-template-columns: span 2;
+   width: 100%;
 
 }
 
 .image12 {
    grid-area: fishing2;
    grid-template-columns: span 2;
+   width: 100%;
 }
 // end of fishing
 
@@ -217,37 +325,62 @@
    font-size: 1em;
 }
 
+//  arrow up properties & values
 .up-arrow {
-   left: 14rem;
+   width: 26px;
+   height: 26px;
+   left: 18em;
+   bottom: 1.5em;
 }
 
 // Contact form
 
-.box {
+.contact-form {
    position: absolute;
-   top: 1%;
-   left: 1%;
+   top: 15%;
+   left: 0%;
    transform: translate(-50,-50%);
    width: 320px;
    padding: 40px;
+}
+
+// centering the details
+.contact-details {
+   text-align: center;
+   width: 80vw;
 }
 
 .form {
 margin: 0;
 padding: 0;
 background: url(../images/form-bg.jpg);
-background-size: auto;
+background-size: cover;
 background-repeat: no-repeat;
+height: 165vh;
 }
 
+// masonry type gallery
+.gallery {
+   display: grid;
+   grid-template-columns:repeat(2, 1fr);
+   grid-template-rows: (40 ,1fr);
+   grid-gap: 20px;
+   grid-template-areas: 
+            "heading-1"
+            "img img"
+}
 
-  }
+footer p {
+   font-size: 16px;
+}
+
+}
 
   /* Responsive Design */
     /*Tablets*/
 @media only screen 
     and (min-device-width: 768px) 
-    and (max-device-width: 1024px) 
+    and (max-device-width: 1023px) 
     and (-webkit-min-device-pixel-ratio: 1) {
       .p-title {
          font-size: 1em;
@@ -257,13 +390,28 @@ background-repeat: no-repeat;
          left: 23rem;
       }
 
+// masonry type gallery
+.gallery {
+   display: grid;
+   grid-template-columns:repeat(4, 1fr);
+   grid-template-rows: (40 ,1fr);
+   grid-gap: 20px;
+   grid-template-areas: 
+            "heading-1"
+            "img img img img"
+}
+
+.form {
+   height: 165vh;
+}
+
       
  }
 
  /* Responsive Design
     /*Desktop*/
  @media screen 
-    and (min-device-width: 1200px) 
+    and (min-device-width: 1024px) 
     and (max-device-width: 1600px) 
     and (-webkit-min-device-pixel-ratio: 1) { 
 
