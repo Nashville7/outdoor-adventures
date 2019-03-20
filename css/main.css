@@ -611,9 +611,7 @@ select {
     margin-bottom: 12px; }
 
   h1.heading {
-    bottom: 177px;
-    position: absolute;
-    font-size: 30px; }
+    margin-top: 0; }
 
   header {
     height: 30rem; }
