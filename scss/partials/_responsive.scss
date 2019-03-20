@@ -15,6 +15,10 @@
     and (-webkit-min-device-pixel-ratio: 1){
 
 
+   nav {
+      position: static;
+   }
+
       // navbar unordered list styling
    nav ul {
       display: grid;
@@ -61,7 +65,6 @@ h1.heading {
 
 .heading-1 {
    font-size: 24px;
-   margin-top: 81px;
 }
 
 .heading {
@@ -364,7 +367,7 @@ header {
        opacity: 0;
    }
    to {
-       padding-top: 70%;
+       padding-top: 40%;
        opacity: 1;
    }
 }
