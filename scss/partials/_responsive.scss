@@ -409,16 +409,28 @@ footer p {
 // masonry type gallery
 .gallery {
    display: grid;
-   grid-template-columns:repeat(4, 1fr);
+   grid-template-columns:repeat(3, 1fr);
    grid-template-rows: (40 ,1fr);
    grid-gap: 20px;
    grid-template-areas: 
             "heading-1"
-            "img img img img"
+            "img img img"
 }
 
 .form {
    height: 165vh;
+}
+
+.climb {
+   grid-column: span 2
+}
+
+.heading-1 {
+   margin-top: 33px; 
+}
+
+footer p {
+   margin-top: 0;
 }
 
       

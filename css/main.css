@@ -23,7 +23,9 @@ h1.heading {
   margin-top: 0; }
 
 nav {
-  width: 100%; }
+  width: 100%;
+  position: fixed;
+  z-index: 1000; }
 
 nav ul {
   list-style-type: none;
@@ -852,13 +854,22 @@ select {
 
   .gallery {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 40, 1fr;
     grid-gap: 20px;
-    grid-template-areas: "heading-1" "img img img img"; }
+    grid-template-areas: "heading-1" "img img img"; }
 
   .form {
-    height: 165vh; } }
+    height: 165vh; }
+
+  .climb {
+    grid-column: span 2; }
+
+  .heading-1 {
+    margin-top: 33px; }
+
+  footer p {
+    margin-top: 0; } }
 /* Responsive Design
    /*Desktop*/
 @media screen and (min-device-width: 1024px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
