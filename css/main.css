@@ -52,7 +52,7 @@ nav a {
 nav a:hover {
   color: #f0c330;
   transition: 0.5s;
-  text-shadow: 5px 10px 5px rgba(255, 196, 0, 0.404); }
+  text-shadow: 5px 4px 5px rgba(255, 196, 0, 0.404); }
 
 footer p {
   background-color: rgba(174, 175, 184, 0.9);
@@ -223,6 +223,18 @@ select {
   background-color: rgba(0, 0, 0, 0.842);
   border-color: #fff;
   border: 1px solid white; }
+
+.home-position {
+  background-color: rgba(0, 0, 0, 0.438);
+  color: #ffc400; }
+
+.contact-position {
+  background-color: rgba(0, 0, 0, 0.438);
+  color: #ffc400; }
+
+.gallery-position {
+  background-color: rgba(0, 0, 0, 0.438);
+  color: #ffc400; }
 
 @font-face {
   font-family: 'Poiret One';
